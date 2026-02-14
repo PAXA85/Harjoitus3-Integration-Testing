@@ -1,0 +1,32 @@
+{
+  "name": "hex-to-rgb-api",
+  "version": "1.0.0",
+  "description": "REST API (Express) for hex-to-rgb conversion with unit + integration tests.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "mocha \"test/**/*.test.js\"",
+    "test:unit": "mocha \"test/unit/**/*.test.js\"",
+    "test:integration": "mocha \"test/integration/**/*.test.js\""
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.7.3",
+    "supertest": "^7.0.0"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "hex",
+    "rgb",
+    "testing",
+    "mocha",
+    "supertest"
+  ],
+  "license": "MIT"
+}
