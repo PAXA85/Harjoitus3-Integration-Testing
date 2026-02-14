@@ -23,7 +23,7 @@ http://localhost:3000
 
 ### API-reitti
 'GET /api/hex-to-rgb/:hex'
-- **Esimerkki:**
+#### Esimerkki:
 
 /api/hex-to-rgb/ff00aa
 - **Onnistunut vastaus (200):**
