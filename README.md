@@ -21,12 +21,12 @@ npm start
 http://localhost:3000
 ## Testireitti:
 
-### API-reitit
+### API-reitti
 'GET /api/hex-to-rgb/:hex'
-**Esimerkki:**
+- **Esimerkki:**
 
 /api/hex-to-rgb/ff00aa
-Onnistunut vastaus (200):
+- **Onnistunut vastaus (200):**
 ```json
 {
   "hex": "#FF00AA",
@@ -37,7 +37,7 @@ Onnistunut vastaus (200):
   }
 }
 ```
-**Virhetilanne (400):**
+- **Virhetilanne (400):**
 ```json
 {
   "error": "InvalidHex",
